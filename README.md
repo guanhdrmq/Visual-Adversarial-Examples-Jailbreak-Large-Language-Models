@@ -1,3 +1,8 @@
+
+  python minigpt_visual_attack_spsa_e.py --cfg_path eval_configs/minigpt4_eval.yaml  --gpu_id 0 --n_iters 5000  --alpha 1 --save_dir visual_unconstrained_e4_xxx_5000
+  python minigpt_visual_attack_spsa_b.py --cfg_path eval_configs/minigpt4_eval.yaml  --gpu_id 0 --n_iters 5000  --alpha 1 --save_dir visual_unconstrained_ber_xxx_5000
+
+
 <h1 align='center' style="text-align:center; font-weight:bold; font-size:2.0em;letter-spacing:2.0px;"> Visual Adversarial Examples Jailbreak<br>Aligned Large Language Models </h1>
 <p align='center' style="text-align:center;font-size:1.25em;">
     <a href="https://unispac.github.io/" target="_blank" style="text-decoration: none;">Xiangyu Qi<sup>1,*</sup></a>&nbsp;,&nbsp;
